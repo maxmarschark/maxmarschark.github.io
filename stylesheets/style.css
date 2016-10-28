@@ -53,7 +53,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
 }
 
 ul {
@@ -166,4 +165,20 @@ textarea {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+#home {
+  padding-top: 25px;
+}
+
+#about {
+  padding: 100px 15px;
+}
+
+#portfolio {
+  padding-top: 100px;
+}
+
+#contact {
+  padding-top: 100px;
 }
