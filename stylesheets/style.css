@@ -19,11 +19,14 @@ body, html, .main {
 
 section {
     min-height: 100%;
+    align-content: center;
 }
 
 .heading {
   color: white;
-  text-decoration: underline;
+  width: 500px;
+  margin: auto;
+  border-bottom: 1px solid white;
   text-align: center;
   font-size: 50px;
   font-family: 'Yantramanav', sans-serif;
@@ -44,12 +47,12 @@ h3 {
 
 img {
 	width: 200px;
-	height: full;
+	height: 200px;
 	background: white;
-	-moz-border-radius: 75px;
-	-webkit-border-radius: 75px;
-	border-radius: 75px;
-  padding: 10px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+  border: 2px solid white;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -68,6 +71,7 @@ ul {
     flex-flow: row wrap;
     justify-content: center;
     background-color: rgba(52, 73, 94, 1);
+    border-bottom: 1px solid white;
 }
 
 li a {
@@ -75,7 +79,6 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-family: 'Yantramanav', sans-serif;
     font-size: 20px;
 }
@@ -88,8 +91,11 @@ li a:hover {
   font-family: 'Yantramanav', sans-serif;
   text-align: center;
   font-weight: lighter;
-  text-decoration: underline;
   color: white;
+  border-bottom: 1px solid white;
+  align-items: center;
+  width: 350px;
+  margin: auto;
   top: 5%;
 }
 
@@ -108,6 +114,7 @@ li a:hover {
   max-width: 50%;
   letter-spacing: 1px;
   margin: 0 auto;
+  padding-top: 2%;
 }
 
 .email-form {
@@ -121,7 +128,7 @@ li a:hover {
   -moz-border-radius:28px;
   -webkit-border-radius:28px;
   border-radius:28px;
-  border:1px solid black;
+  border:1px solid white;
   display:inline-block;
   cursor:pointer;
   color:#ffffff;
