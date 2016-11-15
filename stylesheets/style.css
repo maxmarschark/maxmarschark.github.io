@@ -15,11 +15,17 @@ body {
 
 body, html, .main {
     height: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 section {
     min-height: 100%;
     align-content: center;
+}
+
+.container {
+  width: 100%;
 }
 
 .heading {
@@ -46,7 +52,7 @@ h3 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-img {
+.headshot {
 	width: 200px;
 	height: 200px;
 	background: white;
@@ -59,10 +65,17 @@ img {
   margin-right: auto;
 }
 
+.logo {
+  background: white;
+  border: 4px solid white;
+  -moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
 ul {
     bottom: 0;
     margin: 0;
-    padding: 0;
     overflow: hidden;
     list-style-type: none;
     position: fixed;
@@ -104,6 +117,29 @@ li a:hover {
   height: 25rem;
   weight: 25rem;
   color: black;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+}
+
+.project1 {
+  height: 10rem;
+  width: auto;
+  border: 5px solid rgba(52, 73, 94, 1);
+}
+
+.project1info {
+  background: rgba(23, 36, 48, 1);
+  text-align: center;
+  justify-content: center;
+  text-align-last: center;
+  color: white;
+  font-family: 'helvetica';
 }
 
 .description {
