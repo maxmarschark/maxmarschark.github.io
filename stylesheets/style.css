@@ -130,18 +130,28 @@ li a:hover {
 }
 
 .project1 {
-  height: 10rem;
+  height: 20rem;
   width: auto;
-  border: 5px solid rgba(52, 73, 94, 1);
+  border: 5px solid white;
+}
+
+.project1header {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: white;
 }
 
 .project1info {
-  background: rgba(23, 36, 48, 1);
-  text-align: center;
-  justify-content: center;
-  text-align-last: center;
-  color: white;
   font-family: 'helvetica';
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  max-width: 50%;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  margin-top: 0%;
+  padding-top: 2%;
 }
 
 .description {
