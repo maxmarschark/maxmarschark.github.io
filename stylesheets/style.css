@@ -16,16 +16,12 @@ body {
 body, html, .main {
     height: 100%;
     width: 100%;
-    margin: auto;
+    margin: 0;
 }
 
 section {
     min-height: 100%;
     align-content: center;
-}
-
-.container {
-  width: 100%;
 }
 
 .heading {
@@ -73,6 +69,11 @@ h3 {
 	border-radius: 100px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 ul {
     bottom: 0;
     margin: 0;
@@ -92,6 +93,7 @@ li a {
     display: flex;
     color: white;
     text-align: center;
+    justify-content: center;
     padding: 14px 16px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
